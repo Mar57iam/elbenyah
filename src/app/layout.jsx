@@ -1,9 +1,8 @@
 
-import Alpine from "alpinejs";
 import AOSProvider from "./_components/AosProvider/AosProvider";
 import "./globals.css";
 
-
+import '@/i18n'
 
 
 

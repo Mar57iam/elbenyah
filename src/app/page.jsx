@@ -4,11 +4,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { useTranslation } from 'react-i18next';
 
 export default function MySlider() {
+  const {t} = useTranslation()
   return (
 
-    
+
     <div className="relative p-6">
       <Swiper
         modules={[Navigation]}
@@ -34,7 +36,7 @@ export default function MySlider() {
       </Swiper>
 
       <div data-aos="fade-up">
-  <h2 className=" font-hacen">مرحبا بك في الموقع</h2>
+  <h2 className=" font-hacen">{t('welcome')}</h2>
   <h2 className=" ">مرحبا بك في الموقع</h2>
 </div>
 
