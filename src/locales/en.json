@@ -1,5 +1,82 @@
 {
-    "welcome": "Welcome to our website",
-    "about": "About Us"
-  }
+  "welcome": "Welcome to our website",
+  "home": "Home",
+  "projects_title": "Projects",
+  "services_title": "Services",
+  "contact_title": "Contact",
+
+  "about": {
+    "title1": "About",
+    "title2": "Us",
+    "subtitle": "We provide best architecture that is out of the box",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  },
+
+
+  "loading": "Loading...",
+  "projectDetails": "Project Details",
+  "relatedProjects": "Related Projects",
+  "viewAllProjects": "View All Projects",
+
+  "services": {
+    "Our_Services" : " Our Services ",
+    "section_title": "We have been providing great floring solutions service.",
+    "section_subtitle": "Services provided by us",
+    "section_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever",
+    "no_description": "No description available.",
+    "learn_more": "Learn More",
+    "not_found": "Service not found.",
+    "related_title": "Related Services",
+    "call_to_action_title": "Have a vision for your next project?",
+    "call_to_action_text": "Let’s turn it into reality with purposeful architectural design.",
+    "get_in_touch": "Get In Touch"
+  },
+
   
+    "contact": {
+      "title": "Get In Touch",
+      "subtitle": "You can reach us any time",
+      "name": "First name",
+      "email": "Email",
+      "phone": "Phone number",
+      "subject": "Subject",
+      "message": "Tell us how can we help you...",
+      "send": "Send Message",
+      "terms": "By contacting us you agree to our",
+      "tos": "Terms of service",
+      "privacy": "Privacy Policy"
+    }, 
+
+  "reviews": {
+  "title": "Reviews",
+  "subtitle": "What Our Customer Say?",
+  "description": "Our customers are so happy with our services. Give us your feedback and share your opinion.",
+  "post": "Post Comment"
+},
+
+
+"projects": {
+  "title": "Our Projects",
+  "subtitle": "Our Featured Projects",
+  "description": "We are a collective of architects, designers, engineers, and planners working together to build a better future.",
+  "button": "See All Projects"
+},
+
+"footer": {
+  "address": "345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345",
+  "phone": "(123)-456-7890",
+  "fax": "(123)-456-7890",
+  "social": "Social Media",
+  "about": "ABOUT US",
+  "contact": "CONTACT US",
+  "help": "HELP",
+  "privacy": "PRIVACY POLICY",
+  "disclaimer": "DISCLAIMER"
+}
+
+
+    
+  
+}
+
+

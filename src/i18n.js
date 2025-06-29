@@ -1,19 +1,28 @@
-import i18next from 'i18next';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 import enTranslation from './locales/en.json';
 import arTranslation from './locales/ar.json';
-import { initReactI18next } from 'react-i18next';
 
-i18next.use(initReactI18next).init({
-  resources: {
-    en: { translation: enTranslation },
-    ar: { translation: arTranslation }
-  },
-  lng: 'ar', 
-  fallbackLng: 'ar', 
-  interpolation: {
-    escapeValue: false, 
-  }
-});
+i18n
+  .use(LanguageDetector) // ✅ دي اللي بتخلّيه يقرأ من localStorage
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: { translation: enTranslation },
+      ar: { translation: arTranslation },
+    },
+    fallbackLng: 'en', // في حالة مفيش لغة محفوظة
+    interpolation: {
+      escapeValue: false,
+    },
+    detection: {
+      order: ['localStorage', 'navigator'],
+      caches: ['localStorage'],
+    },
+  });
 
-export default i18next;
+export default i18n;
+
+

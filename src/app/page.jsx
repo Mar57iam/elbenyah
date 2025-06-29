@@ -1,50 +1,35 @@
-'use client';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import { useTranslation } from 'react-i18next';
 
-export default function MySlider() {
-  const {t} = useTranslation()
+import Navbar from "./_components/Navbar/Navbar";
+import HeroSlider from "./_components/HeroSlider/HeroSlider";
+import About from "./_components/About/About";
+import OurProjects from "./_components/OurProjects/OurProjects";
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import OurServices from "./_components/OurServices/OurServices";
+import Contact from "./Contact/Contact";
+import Reviwes from "./_components/Reviwes/Reviwes";
+import Footer from "./_components/Footer/Footer";
+config.autoAddCss = false;
+
+
+
+export default function Home() {
+
   return (
+   <>
 
 
-    <div className="relative p-6">
-      <Swiper
-        modules={[Navigation]}
-        navigation
-        spaceBetween={20}
-        slidesPerView={1}
-      >
-        <SwiperSlide>
-          <div className="bg-red-300 h-40 flex items-center justify-center text-white text-xl">
-            Slide 1
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="bg-blue-300 h-40 flex items-center justify-center text-white text-xl">
-            Slide 2
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="bg-green-300 h-40 flex items-center justify-center text-white text-xl">
-            Slide 3
-          </div>
-        </SwiperSlide>
-      </Swiper>
+   <About/>
 
-      <div data-aos="fade-up">
-  <h2 className=" font-hacen">{t('welcome')}</h2>
-  <h2 className=" ">مرحبا بك في الموقع</h2>
-</div>
+   <OurProjects/>
+   <OurServices/>
+   <Contact/>
 
+   <Reviwes/>
 
-
-
-    </div>
-    
+  
+      
+   </>
   );
 }
-
