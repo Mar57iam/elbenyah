@@ -101,7 +101,7 @@ export default function Navbar() {
           >
             <li>
               <Link href="/" className={linkClasses('/')}>
-                {t('home')}
+                {t('Home')}
               </Link>
             </li>
             <li>

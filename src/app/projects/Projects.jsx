@@ -34,7 +34,7 @@ export default function Projects() {
                     alt={project.title}
                   />
 
-                  {/* الطبقة السفلية الشفافة */}
+               
                   <div className="absolute bottom-0 w-full h-[152px] backdrop-blur-[40px] bg-white/10 px-6 py-4 flex flex-col justify-end">
                     <h3 className="text-white font-semibold text-lg mb-3">
                       {project.title}
@@ -44,7 +44,6 @@ export default function Projects() {
                     </p>
                   </div>
 
-                  {/* أيقونة السهم */}
                   <div className="absolute bottom-1 right-5 bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg">
                     <FontAwesomeIcon
                       icon={faArrowRight}
