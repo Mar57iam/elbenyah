@@ -26,7 +26,9 @@ export default function HeroSlider() {
       if (!response.ok) throw new Error("Failed to fetch");
 
       const data = await response.json();
-      setSlides(data?.data || []);
+      console.log("Slides data:", data?.data);
+      setSlides(data?.data );
+
     } catch (err) {
       console.error("Error fetching slides:", err);
       setError(err.message);

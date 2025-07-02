@@ -44,7 +44,9 @@
       "send": "Send Message",
       "terms": "By contacting us you agree to our",
       "tos": "Terms of service",
-      "privacy": "Privacy Policy"
+      "privacy": "Privacy Policy", 
+      "successTitle": "Mail has been received!",
+      "successText": "We will contact you soon"
     }, 
 
   "reviews": {
@@ -72,7 +74,23 @@
   "help": "HELP",
   "privacy": "PRIVACY POLICY",
   "disclaimer": "DISCLAIMER"
+},
+
+"comment": {
+  "title": "Add a Comment",
+  "namePlaceholder": "Write your name",
+  "jobPlaceholder": "Write your job",
+  "commentPlaceholder": "Write a comment...",
+  "cancel": "Cancel",
+  "submit": "Post",
+  "successTitle": "Thank you for your review!",
+  "successText": "Your comment will be displayed after review",
+  "errorTitle": "Oops...",
+  "errorText": "Something went wrong!",
+  "requiredFields": "Please fill in all fields.",
+  "networkError": "Network error. Please try again later."
 }
+
 
 
     

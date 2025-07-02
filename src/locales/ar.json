@@ -44,7 +44,9 @@
       "send": "أرسل الرسالة",
       "terms": "من خلال التواصل معنا، فإنك توافق على",
       "tos": "شروط الخدمة",
-      "privacy": "سياسة الخصوصية"
+      "privacy": "سياسة الخصوصية",
+      "successTitle": "تم استلام رسالتك!",
+      "successText": "سوف نتواصل معك قريبًا"
     },
 
     "reviews": {
@@ -71,8 +73,21 @@
   "help": "مساعدة",
   "privacy": "سياسة الخصوصية",
   "disclaimer": "إخلاء المسؤولية"
+},
+"comment": {
+  "title": "أضف تعليقًا",
+  "namePlaceholder": "اكتب اسمك",
+  "jobPlaceholder": "اكتب وظيفتك",
+  "commentPlaceholder": "اكتب تعليقًا...",
+  "cancel": "إلغاء",
+  "submit": "إرسال",
+  "successTitle": "تم إرسال تعليقك بنجاح !",
+  "successText": "سيتم عرض تعليقك بعد المراجعة",
+  "errorTitle": "عذرًا...",
+  "errorText": "حدث خطأ ما!",
+  "requiredFields": "يرجى ملء جميع الحقول.",
+  "networkError": "خطأ في الاتصال. حاول مرة أخرى لاحقًا."
 }
-
 }
 
 
