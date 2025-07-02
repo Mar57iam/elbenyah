@@ -47,6 +47,7 @@ export default function Contact() {
 
   return (
     <section
+ 
       className="min-h-screen bg-cover bg-center flex items-center justify-center px-4 sm:px-6 lg:px-8 py-10"
       style={{ backgroundImage: "url('/images/Contact.jpg')" }}
       dir={isArabic ? 'rtl' : 'ltr'}

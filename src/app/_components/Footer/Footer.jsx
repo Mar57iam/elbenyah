@@ -23,13 +23,13 @@ export default function Footer() {
       
         <div className="text-sm text-gray-300 space-y-4 text-center md:text-left w-full md:w-auto">
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-            <span>📍</span>
+          <i class="fa-solid fa-location-dot"></i>
             <p>{t('footer.address')}</p>
           </div>
   
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
             <div className="flex items-center gap-2">
-              <span>📞</span>
+            <i class="fa-solid fa-phone"></i>
               <p>{t('footer.phone')}</p>
             </div>
             <div className="flex items-center gap-2">

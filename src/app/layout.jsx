@@ -12,6 +12,9 @@ import Navbar from "./_components/Navbar/Navbar";
 export const metadata = {
   title: 'Al-Benyah ',
   description: 'Frontend implementation with Next.js',
+  icons: {
+    icon: '/logo.ico', 
+  },
 };
 
 export default function RootLayout({ children }) {

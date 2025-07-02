@@ -35,7 +35,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed z-50 w-full  px-4 transition-all duration-300 ${
+      className={`fixed z-[999] w-full  px-4 transition-all duration-300 ${
         isScrolled ? 'top-0' : 'top-12'
       }`}
     >
