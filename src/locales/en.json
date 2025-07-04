@@ -88,7 +88,8 @@
   "errorTitle": "Oops...",
   "errorText": "Something went wrong!",
   "requiredFields": "Please fill in all fields.",
-  "networkError": "Network error. Please try again later."
+  "networkError": "Network error. Please try again later.",
+  "ratingLabel" : "Rating"
 }
 
 

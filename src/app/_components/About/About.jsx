@@ -6,17 +6,18 @@ import { useTranslation } from 'react-i18next';
 
 export default function About() {
   const { t } = useTranslation();
-  const [isClient, setIsClient] = useState(false);
+ 
 
   useEffect(() => {
-    setIsClient(true); 
+   
     AOS.init({
       duration: 1000,
       once: true,
+      easing: 'ease',
     });
   }, []);
 
-  if (!isClient) return null; 
+ 
 
   return (
     <section className="w-full max-w-[1280px] mt-[80px] h-[600px]  mb-[100px] px-4 lg:px-0 mx-auto flex flex-col lg:flex-row gap-[40px] lg:gap-[23px]">
@@ -40,22 +41,29 @@ export default function About() {
 
       <div
   className="flex items-end gap-[10px] w-full lg:w-[670px]"
-  data-aos="fade-up"
+ 
 >
   <img
     src="/images/download.webp"
     alt="img1"
     className="rounded-[20px] w-1/3 h-[300px] sm:h-[400px] md:h-[448px] object-cover"
+
+      data-aos="fade-up"
+    data-aos-delay="400"
   />
   <img
     src="/images/download.webp"
     alt="img2"
     className="rounded-[20px] w-1/3 h-[350px] sm:h-[500px] md:h-[600px] object-cover"
+    data-aos="fade-up"
+    data-aos-delay="200"
   />
   <img
     src="/images/download.webp"
     alt="img3"
     className="rounded-[20px] w-1/3 h-[320px] sm:h-[470px] md:h-[524px] object-cover"
+        data-aos="fade-up"
+    data-aos-delay="0"
   />
 </div>
 

@@ -19,6 +19,8 @@ export default function OurProjects() {
       const res = await fetch(`https://test.albenyah.com/api/public-data/projects`);
       const data = await res.json();
       setProjectsList(data.data);
+      console.log(data.data);
+      
     } catch (error) {
       console.log('projects error', error);
     }
@@ -136,10 +138,10 @@ export default function OurProjects() {
               if (position === 0) {
                 classes += ' z-30 opacity-100 scale-100 top-1/2 -translate-y-1/2 w-[514px] h-[431px]';
               } else if (position === 1) {
-                // ✅ الصورة التالية تظهر فوق
+              
                 classes += ' z-20 opacity-60 scale-[0.9] -top-[450px] w-[514px]';
               } else if (position === -1) {
-                // ✅ الصورة السابقة تظهر تحت
+           
                 classes += ' z-20 opacity-60 scale-[0.9] top-[calc(50%+250px)] w-[514px] h-[40px]';
               } else {
                 classes += ' opacity-0 pointer-events-none scale-0 h-0 top-0';

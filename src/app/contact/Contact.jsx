@@ -14,9 +14,7 @@ export default function Contact() {
     try {
       const res = await fetch(`https://test.albenyah.com/api/contact-submissions`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+      
         body: JSON.stringify(values),
       });
 

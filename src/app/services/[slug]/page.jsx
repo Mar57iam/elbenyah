@@ -82,11 +82,11 @@ export default function Slug() {
         <p className="text-[#3F3E3E] text-center leading-[32px] md:leading-[48px] font-medium text-[18px] md:text-[24px]">
           {t('services.call_to_action_text')}
         </p>
-        <div className="flex justify-center">
-          <button className="w-[160px] md:w-[180px] h-[45px] mt-[24px] md:mt-[40px] bg-[#B79031] rounded-[32px] text-white font-medium text-sm md:text-[20px] flex items-center justify-center gap-2">
+        <div className="flex justify-center mb-6">
+          <Link href={`/contact`} className="w-[160px] md:w-[180px] h-[45px] mt-[24px] md:mt-[40px] bg-[#B79031] rounded-[32px] text-white font-medium text-sm md:text-[20px] flex items-center justify-center gap-2">
             {t('services.get_in_touch')}
             <FontAwesomeIcon icon={faArrowUp} className="rotate-45" />
-          </button>
+          </Link>
         </div>
       </div>
     </>

@@ -81,6 +81,8 @@
   "commentPlaceholder": "اكتب تعليقًا...",
   "cancel": "إلغاء",
   "submit": "إرسال",
+  "ratingLabel" : "التقييم",
+
   "successTitle": "تم إرسال تعليقك بنجاح !",
   "successText": "سيتم عرض تعليقك بعد المراجعة",
   "errorTitle": "عذرًا...",

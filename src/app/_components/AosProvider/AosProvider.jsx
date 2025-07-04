@@ -10,5 +10,8 @@ export default function AOSProvider({ children }) {
     AOS.init()
   }, [])
 
-  return <>{children}</>
+  return <>
+  {children}
+  
+  </>
 }
