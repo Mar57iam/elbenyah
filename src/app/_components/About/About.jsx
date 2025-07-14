@@ -44,7 +44,7 @@ export default function About() {
  
 >
   <img
-    src="/images/download.webp"
+    src="/images/p10.jpg"
     alt="img1"
     className="rounded-[20px] w-1/3 h-[300px] sm:h-[400px] md:h-[448px] object-cover"
 
@@ -52,14 +52,14 @@ export default function About() {
     data-aos-delay="400"
   />
   <img
-    src="/images/download.webp"
+    src="/images/p2.jpg"
     alt="img2"
     className="rounded-[20px] w-1/3 h-[350px] sm:h-[500px] md:h-[600px] object-cover"
     data-aos="fade-up"
     data-aos-delay="200"
   />
   <img
-    src="/images/download.webp"
+    src="/images/p1.jpg"
     alt="img3"
     className="rounded-[20px] w-1/3 h-[320px] sm:h-[470px] md:h-[524px] object-cover"
         data-aos="fade-up"

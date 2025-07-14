@@ -10,7 +10,7 @@ export default function Contact() {
   const { t, i18n } = useTranslation();
   const isArabic = i18n.language === 'ar';
 
-  async function handleContactSubmission(values, { resetForm }) {
+  async function handleContactSubmission(values ) {
     try {
       const res = await fetch(`https://test.albenyah.com/api/contact-submissions`, {
         method: 'POST',

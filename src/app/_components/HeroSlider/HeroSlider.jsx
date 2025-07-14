@@ -2,10 +2,9 @@
 
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { useTranslation } from 'react-i18next';
 import "swiper/css";
-import "swiper/css/effect-fade";
 import Loading from "../../loading";
 
 export default function HeroSlider() {
@@ -24,6 +23,7 @@ export default function HeroSlider() {
         }
       });
 
+      
 
       const data = await response.json();
       console.log("Slides data:", data?.data);
@@ -51,12 +51,7 @@ export default function HeroSlider() {
 
   return (
     <div className="w-full">
-      <Swiper modules={[Autoplay , EffectFade]} 
-      autoplay={{ delay: 3000  }}
-       loop
-       effect="fade"
-       speed={1000}
-       >
+      <Swiper modules={[Autoplay]} autoplay={{ delay: 3000 }} loop>
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div

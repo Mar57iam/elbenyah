@@ -6,14 +6,14 @@ import enTranslation from './locales/en.json';
 import arTranslation from './locales/ar.json';
 
 i18n
-  .use(LanguageDetector) // ✅ دي اللي بتخلّيه يقرأ من localStorage
+  .use(LanguageDetector) 
   .use(initReactI18next)
   .init({
     resources: {
       en: { translation: enTranslation },
       ar: { translation: arTranslation },
     },
-    fallbackLng: 'en', // في حالة مفيش لغة محفوظة
+    fallbackLng: 'en', 
     interpolation: {
       escapeValue: false,
     },

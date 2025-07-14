@@ -53,7 +53,7 @@ export default function Slug() {
 
         
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10 grid grid-cols-1 md:grid-cols-3 gap-6 pb-16">
-        {currentProject.related_projects?.slice(0, 3).map((related, i) => (
+        {currentProject.related_projects?.map((related, i) => (
           <Link href={``} key={i}>
           <div className="relative h-[396px] rounded-[32px] overflow-hidden group cursor-pointer bg-black">
            
